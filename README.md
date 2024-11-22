@@ -1,4 +1,3 @@
-
 # Robin AI
 
 Robin AI is a cutting-edge chat application powered by Google's Generative AI, designed to provide a seamless and interactive experience with an AI assistant. It features an intuitive user interface and a responsive design to ensure users can easily engage with the assistant across different devices.
@@ -18,7 +17,18 @@ Robin AI is a cutting-edge chat application powered by Google's Generative AI, d
 - **JavaScript**: Handles interactive elements and AI communication.
 - **Tailwind CSS**: Utility-first CSS framework for fast and responsive styling.
 - **Google Generative AI API**: Powers the chat assistant with state-of-the-art natural language processing.
-  
+
+## Live Demo
+
+You can check out the live version of Robin AI here:
+
+[Live Demo](https://robin-ai-nine.vercel.app/)
+
+### Preview
+Here’s a preview of what the chat application looks like:
+
+![Live Demo Preview](preview.png)
+
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -70,7 +80,8 @@ We welcome contributions! If you'd like to contribute to the development of Robi
 4. Push your changes to your fork (`git push origin feature-branch`).
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+##  License
+----------
+ 
+Robin.AI is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
