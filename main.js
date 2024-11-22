@@ -26,7 +26,7 @@ export const userDiv = (data) => {
 <p class="bg-gemDeep text-white p-1 rounded-md-user shadow-md">
 ${data}
 </p>
-<img src="/assets/user.svg" alt="user icon" class="w-10 h-10 rounded-full" />
+<img src="./assets/user.svg" alt="user icon" class="w-10 h-10 rounded-full" />
 </div>
 `;
 };
