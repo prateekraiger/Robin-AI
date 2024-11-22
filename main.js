@@ -36,7 +36,7 @@ export const aiDiv = (data) => {
   return `
     <!-- AI Chat -->
     <div class="flex gap-2 justify-start">
-      <img src="bot.svg" alt="AI bot icon" class="w-10 h-10" />
+      <img src="https://i.pinimg.com/736x/fe/e6/2e/fee62e54e2f370fc3b409ae621dffe9e.jpg" alt="AI bot icon" class="w-10 h-10" />
       <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap">
         ${data}
       </pre>
