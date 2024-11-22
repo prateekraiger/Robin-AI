@@ -53,7 +53,7 @@ To set up the project locally, follow these steps:
    - Obtain a Google Generative AI API key from the [Google Cloud Console](https://console.cloud.google.com/).
    - Create a `.env` file in the root directory and add your API key:
      ```
-     GOOGLE_API_KEY=your-api-key-here
+     VITE_API_KEY=your-api-key-here
      ```
 
 5. **Run the application:**
