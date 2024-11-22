@@ -18,35 +18,32 @@ async function getResponse(prompt) {
   return text;
 }
 
-// user chat div
+// User Chat div
 export const userDiv = (data) => {
   return `
-<!-- User Chat -->
-<div class="flex items-center gap-2 justify-end">
-<p class="bg-gemDeep text-white p-1 rounded-md-user shadow-md">
-${data}
-</p>
-<img src="./assets/user.svg" alt="user icon" class="w-10 h-10 rounded-full" />
-</div>
-`;
+    <!-- User Chat -->
+    <div class="flex items-center gap-2 justify-end">
+      <p class="bg-gemDeep text-white p-1 rounded-md-user shadow-md">
+        ${data}
+      </p>
+      <img src="./assets/user.svg" alt="User profile picture" class="w-10 h-10 rounded-full" />
+    </div>
+  `;
 };
 
-// AI Chat div
+// Ai chat div
 export const aiDiv = (data) => {
   return `
-<!-- AI Chat -->
-<div class="flex gap-2 justify-start">
-<img
-src="./assets/bot.svg"
-alt="user icon"
-class="w-10 h-10"
-/>
-<pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap">
-${data}
-</pre>
-</div>
-`;
+    <!-- AI Chat -->
+    <div class="flex gap-2 justify-start">
+      <img src="./assets/bot.svg" alt="AI bot icon" class="w-10 h-10" />
+      <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap">
+        ${data}
+      </pre>
+    </div>
+  `;
 };
+
 
 // Function to display user message
 function displayUserMessage(message) {}
