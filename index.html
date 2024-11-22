@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="w-full min-h-screen flex flex-col">
-  <main class="w-full bg-gemLight min-h-[calc(100vh-1rem)] max-h-[calc(100vh-1rem)] flex flex-col">
+<body class="w-full min-h-screen flex flex-col bg-gradient-to-r from-pink-300 via-blue-300 to-indigo-400">
+  <main class="w-full min-h-[calc(100vh-1rem)] max-h-[calc(100vh-1rem)] flex flex-col bg-gradient-to-t from-pink-200 via-blue-100 to-indigo-300">
     <!-- Header -->
     <header class="p-2 bg-gemRegular flex gap-5 items-center">
       <img src="./public/avatar.png" alt="chatbot image" class="w-10 h-10" />
-      <h1 class="text-gemDeep text-lg font-medium" style="margin-top:-5px;">Robin AI</h1>
-      <!-- FIXME:change wwebsite -->
+      <h1 class="text-white text-lg font-medium" style="margin-top:-5px;">Robin AI</h1>
+      <!-- FIXME:change website -->
       <a style="cursor: pointer; margin-left: auto;" href="https://robin-gwj1rq9v2-prateekraigers-projects.vercel.app/" target="_parent" title="Full Screen">
         <i class='fas fa-expand' style="font-size:22px; color:#ffffff90"></i></a>
     </header>
@@ -27,8 +27,7 @@
       <div class="p-2 flex flex-col gap-4" id="chat-container">
         <div class="flex gap-2 justify-start" style="margin: 2rem .5rem .5rem 0;">
           <img src="./public/avatar.png" alt="user icon" class="w-10 h-10">
-          <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap"><p>Hey there, friend! I'm Robin, your trusty AI sidekick here to help with anything from answering questions to generating
-            ideas 🤖💡</p>
+          <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap text-gray-800"><p>Hey there, friend! I'm Robin, your trusty AI sidekick here to help with anything from answering questions to generating ideas 🤖💡</p>
               </pre>
         </div>
       </div>
@@ -36,11 +35,11 @@
 
     <!-- prompt -->
     <form action="" method="post" class="p-2 h-fit" id="chat-form"
-      style="display: flex; background: #cc98d445;    margin: 7px;    color: white;    border-radius: 25px;">
+      style="display: flex; background: #ffccd7; margin: 7px; color: white; border-radius: 25px;">
       <textarea name="prompt" id="prompt" cols="30" rows="4"
-        class="w-full p-2 rounded-md resize-none focus:outline-none" placeholder="Chat with Robin AI"
+        class="w-full p-2 rounded-md resize-none focus:outline-none bg-white text-gray-800" placeholder="Chat with Robin AI"
         style="background: none !important;"></textarea>
-      <div id="typing-indicator" style="display: none; color: #cc98d4; align-self: center;">
+      <div id="typing-indicator" style="display: none; color: #ffcc99; align-self: center;">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           style="margin:auto;background:#ffffff00;display:block;" width="25px" height="25px" viewBox="0 0 100 100"
           preserveAspectRatio="xMidYMid">
@@ -52,10 +51,9 @@
         </svg>
       </div>
       <button type="submit" id="submit-indicator" onclick="toggleButton()"
-        class="w-full p-1 bg-gemDeep rounded text-white" style="background: none !important;">
+        class="w-full p-1 bg-gradient-to-r from-pink-400 to-blue-500 rounded text-white" style="background: none !important;">
         Send
       </button>
-
     </form>
   </main>
   <script type="module" src="/main.js"></script>
