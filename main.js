@@ -26,7 +26,7 @@ export const userDiv = (data) => {
       <p class="bg-gemDeep text-white p-1 rounded-md-user shadow-md">
         ${data}
       </p>
-      <img src="./assets/user.svg" alt="User profile picture" class="w-10 h-10 rounded-full" />
+      <img src="https://in.pinterest.com/pin/105975397476340986/" alt="User profile picture" class="w-10 h-10 rounded-full" />
     </div>
   `;
 };
@@ -36,7 +36,7 @@ export const aiDiv = (data) => {
   return `
     <!-- AI Chat -->
     <div class="flex gap-2 justify-start">
-      <img src="./assets/avatar.png" alt="AI bot icon" class="w-10 h-10" />
+      <img src="https://in.pinterest.com/pin/105975397476340986/" alt="AI bot icon" class="w-10 h-10" />
       <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap">
         ${data}
       </pre>
