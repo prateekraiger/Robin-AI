@@ -26,7 +26,7 @@ export const userDiv = (data) => {
       <p class="bg-gemDeep text-white p-1 rounded-md-user shadow-md">
         ${data}
       </p>
-      <img src="/public/user.svg" alt="User profile picture" class="w-10 h-10 rounded-full" />
+      <img src="/user.svg" alt="User profile picture" class="w-10 h-10 rounded-full" />
     </div>
   `;
 };
@@ -36,14 +36,13 @@ export const aiDiv = (data) => {
   return `
     <!-- AI Chat -->
     <div class="flex gap-2 justify-start">
-      <img src="/public/bot.svg" alt="AI bot icon" class="w-10 h-10" />
+      <img src="/bot.svg" alt="AI bot icon" class="w-10 h-10" />
       <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap">
         ${data}
       </pre>
     </div>
   `;
 };
-
 
 // Function to display user message
 function displayUserMessage(message) {}
@@ -120,4 +119,21 @@ function showTypingIndicator() {
 function hideTypingIndicator() {
   document.getElementById("typing-indicator").style.display = "none";
   document.getElementById("submit-indicator").style.display = "block";
+}
+
+//fullscreen btn
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch((err) => {
+      console.error(
+        `Error attempting to enable full-screen mode: ${err.message}`
+      );
+    });
+  } else {
+    document.exitFullscreen().catch((err) => {
+      console.error(
+        `Error attempting to exit full-screen mode: ${err.message}`
+      );
+    });
+  }
 }

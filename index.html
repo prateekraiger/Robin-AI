@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/93eddaa37e.js" crossorigin="anonymous"></script>
     <title>Robin AI </title>
@@ -13,19 +13,19 @@
 
 <body class="w-full min-h-screen flex flex-col">
     <main class="w-full bg-gemLight min-h-[calc(100vh-1rem)] max-h-[calc(100vh-1rem)] flex flex-col"> <!-- Header -->
-        <header class="p-2 bg-gemRegular flex gap-5 items-center"> <img src="./public/avatar.png" alt="chatbot image"
+        <header class="p-2 bg-gemRegular flex gap-5 items-center"> <img src="/avatar.png" alt="chatbot image"
                 class="w-10 h-10" />
             <h1 class="text-gemDeep text-lg font-medium" style="margin-top:-5px;">Robin AI</h1>
-            <a style="cursor: pointer; margin-left: auto;"
-                href="https://robin-ai-nine.vercel.app/" target="_parent" title="Full Screen">
-                <i class='fas fa-expand' style="font-size:22px; color:#ffffff90"></i></a>
+            <a style="cursor: pointer; margin-left: auto;" onclick="toggleFullScreen()" title="Full Screen">
+                <i class='fas fa-expand' style="font-size:22px; color:#ffffff90"></i>
+            </a>
         </header> <!-- Chat Box -->
 
         <div class="flex-1 overflow-y-auto">
             <!-- Chat area -->
             <div class="p-2 flex flex-col gap-4" id="chat-container">
                 <div class="flex gap-2 justify-start" style="margin: 2rem .5rem .5rem 0;">
-                    <img src="./public/avatar.png" alt="user icon" class="w-10 h-10">
+                    <img src="/avatar.png" alt="user icon" class="w-10 h-10">
                     <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md-ai shadow-md whitespace-pre-wrap"><p>Hey there, friend! I'm Robin, your trusty AI sidekick here to help with anything from answering questions to generating
         ideas 🤖💡</p>
           </pre>
