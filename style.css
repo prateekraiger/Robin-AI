@@ -244,7 +244,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
+  --webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -292,7 +292,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
+  --webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -434,7 +434,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  /* vertical-align: middle; */
   /* 2 */
 }
 
@@ -658,17 +658,17 @@ video {
 }
 
 .bg-gemLight {
-  //--tw-bg-opacity: 1;
+  --tw-bg-opacity: 1;
   background-color: #08090b33;
 }
 
 .bg-gemRegular {
-  //--tw-bg-opacity: 1;
+  --tw-bg-opacity: 1;
   background-color: #ffffff33;
 }
 
 .bg-gemDeep {
-  //--tw-bg-opacity: 1;
+  --tw-bg-opacity: 1;
   background-color: #ffffff1a;
 }
 
