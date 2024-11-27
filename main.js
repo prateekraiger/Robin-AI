@@ -44,10 +44,10 @@ export const aiDiv = (data) => {
   `;
 };
 
-// Function to display user message
+// user message
 function displayUserMessage(message) {}
 
-// Function to display bot message
+// bot message
 function displayBotMessage(message) {}
 
 // Submit handler
@@ -69,7 +69,6 @@ async function handleSubmit(event) {
 
   // Simulate AI typing and response
   simulateTyping(async function () {
-    // Display AI response
     const aiResponse = await getResponse(prompt);
     let md_text = md().render(aiResponse);
     chatArea.innerHTML += aiDiv(md_text);
@@ -98,7 +97,7 @@ chatForm.addEventListener("keyup", (event) => {
   if (event.keyCode === 13) handleSubmit(event);
 });
 
-// v2Function to simulate AI typing
+
 function simulateTyping(callback) {
   // Show typing indicator
   showTypingIndicator();
@@ -107,15 +106,14 @@ function simulateTyping(callback) {
     hideTypingIndicator();
 
     callback();
-  }, 2000); // Adjust the timeout based on your desired duration
-}
-// Function to show the typing indicator
+  }, 2000); 
+
 function showTypingIndicator() {
   document.getElementById("typing-indicator").style.display = "block";
   document.getElementById("submit-indicator").style.display = "none";
 }
 
-// Function to hide the typing indicator
+
 function hideTypingIndicator() {
   document.getElementById("typing-indicator").style.display = "none";
   document.getElementById("submit-indicator").style.display = "block";
