@@ -18,7 +18,6 @@ Robin AI is a cutting-edge chat application powered by Google's Generative AI, d
 - **JavaScript**: Handles interactive elements and AI communication.  
 - **Tailwind CSS**: Utility-first CSS framework for fast and responsive styling.  
 - **Google Generative AI API**: Powers the chat assistant with state-of-the-art natural language processing.  
-- **DALL·E API**: Enables AI-driven image generation from user-provided descriptions.  
 - **Google Vision API**: Processes uploaded images for content understanding and question answering.  
 
 ## Live Demo  
