@@ -119,7 +119,7 @@ function hideTypingIndicator() {
   document.getElementById("submit-indicator").style.display = "block";
 }
 
-//fullscreen btn
+// fullscreen btn
 function toggleFullScreen() {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen().catch((err) => {
