@@ -1,6 +1,6 @@
 # Robin AI  
 
-Robin AI is a cutting-edge chat application powered by Google's Generative AI, designed to provide a seamless and interactive experience with an AI assistant. It features an intuitive user interface and a responsive design to ensure users can easily engage with the assistant across different devices.  
+Robin AI is a cutting-edge chat application powered by Google's Generative AI, designed to provide a seamless and interactive experience with an AI assistant. It features an intuitive user interface and a responsive design to ensure users can easily engage with the assistant across different devices. 
 
 ## Features  
 
