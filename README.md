@@ -9,7 +9,7 @@ Robin AI is a cutting-edge chat application powered by Google's Generative AI, d
 - **Responsive Design**: Fully responsive layout, optimized for desktop, tablet, and mobile devices.  
 - **Customizable UI**: Tailored to fit your branding needs with flexibility.  
 - **Real-time Messaging**: Instant AI responses for a smooth chat experience.  
-- **Image-Based Q&A**: Upload images and ask questions about them to get AI-powered answers.  
+- **Image-Based Q&A**: Upload images and ask questions about them to get AI-powered answers. 
 
 ## Technologies Used  
 
